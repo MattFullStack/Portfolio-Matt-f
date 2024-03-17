@@ -19,30 +19,17 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+      Transitioning from sound engineering into web development, my passion for coding is as deep as my roots in music. After enrolling into a web development training at OpenClassroom and an intensive bootcamp at 42 School, I became really interested in solving complex problems and developing scalable solutions. Since then, I keep enhancing my skills through self-directed learning, exploring new technologies, and applying what I learn to practical projects.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+      Continuously driven by curiosity, I thrive on learning new things, pushing my limits, and sharing my excitement for technology with others. I'm actively seeking a full-time Developer role where I can contribute meaningfully while expanding my knowledge and skills.
+
+      Off the keyboard, I enjoy producing music and gaming—a blend of creativity and challenge.
+
+      Eager to bring my motivation and my hardworking nature to your team!
+
+
       </p>
     </motion.section>
   );

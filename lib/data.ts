@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import Travel from "@/public/Travel.png";
+import RoomTask from "@/public/RoomTask.png";
 
 export const links = [
   {
@@ -35,52 +37,116 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    title: "Self-Directed Learning | Fullstatck Development",
+    location: "Remote",
+    description:[
+      "With a passion for continuous growth and innovation, I’ve undertaken a self-directed learning journey in full stack development.", " Leveraging the power of React.js and Next.js, I've crafted responsive web applications and delved into the intricacies of front-end and back-end integration. This exploration has enhanced my skills in utilizing databases and ensuring seamless data flow with tools like MongoDB and Prisma.", ],
+      icon: React.createElement(FaReact),
+    date: "2023-Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intensive Programming Bootcamp (Piscine 42)",
+    location: "42 School | Paris, France",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Piscine 42 is where I kept developing my coding skills, particularly with C and C++, in a high-intensity learning environment.I collaborated on complex projects, honing skills in code efficiency, algorithmic thinking, and teamwork under high-pressure scenarios. ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Web Development Training",
+    location: "OpenClassroom | Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    "Through rigorous remote training, I developed my coding skills, using HTML/CSS for responsive design and JavaScript for dynamic content creation. My proficiency with Tailwind CSS and Git further enhanced my toolkit, enabling me to craft seamless user experiences across all platforms.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2023",
+  },
+  {
+    title: "Bachelor of Sound Engineering",
+    location: "SAE Institute | Paris, France",
+    description:
+      "During my bachelor's degree in sound engineering, I immersed myself in sound theory and audio signal processing. This hands-on experience in audio production, not only refined my attention to detail, but also enriched my approach to coding. This brings a unique perspective to each development project I build, allowing me to solve problems with creativity and precision.",
+      icon: React.createElement(LuGraduationCap),
+    date: "2019 - 2022",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    title: "Task Management Web App: Integrating Next.js, Prisma and MongoDB",
+    description: [
+      "• Leveraged React.js to build a seamless, intuitive and interactive frontend experience.",
+      
+      "• Used Prisma as an ORM to bridge Next.js with MongoDB, facilitating efficient data management and operations for tasks and user profiles.",
+      
+      "• Ensured the application is fully responsive.",
+      
+      "• Implemented middleware to handle backend logic, including authentication flows, demonstrating the ability to manage security and user sessions.",
+      
+      "• Developed comprehensive features like task creation, profile management, and categorization ('Important', 'Completed', 'Do It Now'), showcasing my ability to create a complex and user-friendly application.",
+    ].join("<br />"),
+    description2:"",
+    link:"",
+    tags: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Prisma", "MongoDB", "TypeScript"],
+    imageUrl: RoomTask,
+    websiteUrl:"https://room-task.vercel.app/"
+    
+  },
+  {
+    title: "Modern Banking Platform: Responsive Web Design",
+    description:[
+      "• Leveraged React.js to build a seamless and intuitive frontend experience.",
+      
+      "• Employed a modular, component-based architecture with React.js, facilitating code reusability and maintainability.",
+      
+      "• Implemented responsive web design principles using Tailwind CSS.",
+      
+      "• Leveraged Next.js for server-side rendering, improving the website's search engine optimization and ensuring faster page loads.",
+
+      "• Leveraged Next.js for server-side rendering, improving the website's search engine optimization and ensuring faster page loads.",
+    ].join("<br />"),
+    description2:"",
+    link:"",
+    tags: ["React", "Next.js", "Tailwind CSS", "Vite", "TypeScript","JavaScript"],
     imageUrl: corpcommentImg,
+    websiteUrl:"https://bank-website-app.vercel.app/"
   },
   {
-    title: "rmtDev",
+    title: "Global Destinations: Interactive Travel Guide",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    [
+      "• Worked from Figma prototype, accurately translating high-fidelity design into a functional and dynamic landing page web application.",
+      
+      "• Leveraged React.js to build a seamless and intuitive frontend experience.",
+      
+      "• Employed a modular, component-based architecture with React.js, facilitating code reusability and maintainability.",
+      
+      "• Prioritized user interface design to ensure an engaging and visually appealing experience.",
+      
+      "• Leveraged Next.js's server-side rendering features to enhance the website's SEO, making it more visible and accessible to users via search engines.",
+    ].join("<br />"),
+    description2:"",
+    link:"",
+    tags: ["React", "Next.js", "JavaScript", "Tailwind CSS", "TypeScript", "FIGMA"],
+    imageUrl: Travel,
+    websiteUrl:"https://travel-website-2.vercel.app/"
   },
   {
-    title: "Word Analytics",
+    title: "University Hub: A Comprehensive Landing Page",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    [
+      "• Used HTML & CSS to build a responsive landing page aligning with modern web standards and practices.",
+      
+      "• Ensured the landing page is fully responsive, providing an optimal viewing experience across a wide range of devices from desktops to mobile phones.",
+      
+      "• Leveraged JavaScript to add dynamic animations, enhancing user engagement and interactivity on the page.",
+      
+      "• Emphasized accessibility, adopting best practices to create a welcoming digital environment for all users, including those with disabilities.",
+    ].join("<br />"),
+    description2:"",
+    link:"",
+    tags: ["HTML", "CSS","JavaScript", "Figma"],
     imageUrl: wordanalyticsImg,
+    websiteUrl:"https://school-website-app.vercel.app/"
   },
 ] as const;
 
@@ -92,15 +158,14 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
-  "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
+  "Prisma",
+  "Vite",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Framer",
+  "Stripe",
+  "Strapi",
+  "Figma",
+  "GitHub",
 ] as const;
