@@ -162,6 +162,7 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Prisma",
+  "Dockers",
   "Vite",
   "Redux",
   "Framer",
