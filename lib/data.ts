@@ -93,7 +93,7 @@ export const projectsData = [
     
   },
   {
-    title: "Weather Live Web App: Integrating Next.js, Prisma and MongoDB",
+    title: "Weather Live Web App: Integrating Next.js, Shadcn, OpenWeatherMap",
     description: [
       "• Built a dynamic, responsive frontend, leveraging Next.js for performance and SEO benefits.",
       
