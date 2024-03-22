@@ -7,6 +7,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import Travel from "@/public/Travel.png";
 import RoomTask from "@/public/RoomTask.png";
+import WeatherAppWeb from "@/public/WeatherAppWeb.png"
 
 export const links = [
   {
@@ -92,6 +93,26 @@ export const projectsData = [
     
   },
   {
+    title: "Weather Live Web App: Integrating Next.js, Prisma and MongoDB",
+    description: [
+      "• Built a dynamic, responsive frontend, leveraging Next.js for performance and SEO benefits.",
+      
+      "• Integrated OpenWeatherMap and OpenMeteo for real-time weather updates, including temperature, air quality, and forecasts.",
+      
+      "• Added map functionality for a visual representation of weather conditions.",
+      
+      "• Implemented middleware to handle backend logic, including authentication flows, demonstrating the ability to manage security and user sessions.",
+      
+      "• Employed Tailwind CSS for a responsive design, ensuring a consistent UI across devices.",
+    ].join("<br />"),
+    description2:"",
+    link:"",
+    tags: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Shadcn", "React Leaflet", "TypeScript"],
+    imageUrl: WeatherAppWeb,
+    websiteUrl:"https://weather-fullstack-web-app.vercel.app/"
+    
+  },
+  {
     title: "Modern Banking Platform: Responsive Web Design",
     description:[
       "• Leveraged React.js to build a seamless and intuitive frontend experience.",
@@ -109,26 +130,6 @@ export const projectsData = [
     tags: ["React", "Next.js", "Tailwind CSS", "Vite", "TypeScript","JavaScript"],
     imageUrl: corpcommentImg,
     websiteUrl:"https://bank-website-app.vercel.app/"
-  },
-  {
-    title: "Global Destinations: Interactive Travel Guide",
-    description:
-    [
-      "• Worked from Figma prototype, accurately translating high-fidelity design into a functional and dynamic landing page web application.",
-      
-      "• Leveraged React.js to build a seamless and intuitive frontend experience.",
-      
-      "• Employed a modular, component-based architecture with React.js, facilitating code reusability and maintainability.",
-      
-      "• Prioritized user interface design to ensure an engaging and visually appealing experience.",
-      
-      "• Leveraged Next.js's server-side rendering features to enhance the website's SEO, making it more visible and accessible to users via search engines.",
-    ].join("<br />"),
-    description2:"",
-    link:"",
-    tags: ["React", "Next.js", "JavaScript", "Tailwind CSS", "TypeScript", "FIGMA"],
-    imageUrl: Travel,
-    websiteUrl:"https://travel-website-2.vercel.app/"
   },
   {
     title: "University Hub: A Comprehensive Landing Page",
