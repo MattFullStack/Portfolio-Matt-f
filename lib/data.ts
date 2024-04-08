@@ -109,7 +109,7 @@ export const projectsData = [
       "-> Live Weather Data: Integration with OpenWeatherMap and OpenMeteo for real-time updates on weather conditions, including temperature, air quality, and detailed forecasts.",
       "-> Interactive Maps: Visual representation of weather data through comprehensive map functionality, enriching user experience.",
       "-> Secure Backend: Utilized middleware for robust backend logic handling, including user authentication and session management, ensuring security and privacy.",
-      "-> Tailwind CSS: Employed for sleek, responsive design, maintaining UI consistency across various devices and screen sizes.",
+      "-> Tailwind CSS: Sleek responsive design, maintaining UI consistency across various devices and screen sizes.",
     ].join("<br />"),  
     link:"",
     tags: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Shadcn", "TypeScript"],
