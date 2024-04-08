@@ -4,6 +4,8 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { useTheme } from "@/context/theme-context";
+
 
 type ProjectProps = (typeof projectsData)[number];
 
@@ -11,11 +13,14 @@ export default function Project({
   title,
   description,
   description2,
+  description3,
   link,
   tags,
   imageUrl,
   websiteUrl,
+  websiteUrl2,
 }: ProjectProps) {
+  const { theme } = useTheme();
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -37,7 +42,7 @@ export default function Project({
         <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[30rem]">
           <h3 className="text-2xl font-semibold mb-6">{title}</h3>
           <div 
-            className="mt-2 leading-relaxed text-[15px] text-gray-700 dark:text-white/70" 
+            className="mt-2 leading-relaxed text-gray-700 dark:text-white/70" 
             dangerouslySetInnerHTML={{ __html: description }} 
           />
           {description2 && (
@@ -45,23 +50,36 @@ export default function Project({
               className="mt-2 leading-relaxed text-gray-700 dark:text-white/70" 
               dangerouslySetInnerHTML={{ __html: description2 }} 
             />
+            )}
+            {description3 && (
+              <div 
+                className="mt-2 leading-relaxed text-gray-700 dark:text-white/70" 
+                dangerouslySetInnerHTML={{ __html: description3 }} 
+              />
           )}
           <p className="mt-4 leading-relaxed text-gray-700 dark:text-white/70">
             {link}
           </p>
-          <div className="relative py-2 justify-end -right-100 mt-2 mb-8 ">
+          <div className="relative py-2 mt-2 mb-8 mr-auto">
           <a href={websiteUrl} 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="inline-block bg-gray-700 text-white text-[0.8rem] py-2 px-4 rounded-full hover:bg-gray-900 transition-colors duration-150">
-          Visit here
+          className={`underline  py-2 px-4 transition-colors duration-150 ${theme === 'dark' ? 'text-white hover:text-blue-300' : 'text-gray-900 hover:text-blue-900'}`}>
+           View Live
           </a>
           <a href={websiteUrl} target="_blank" rel="noopener noreferrer"></a>
+          <a href={websiteUrl2} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={` underline py-2 px-4 transition-colors duration-150 ${theme === 'dark' ? 'text-white hover:text-blue-300' : 'text-gray-900 hover:text-blue-900'}`}>
+           Explore Code
+          </a>
+          <a href={websiteUrl2} target="_blank" rel="noopener noreferrer"></a>
           </div>
           <ul className="flex flex-wrap py-2  gap-2 ">
             {tags.map((tag, index) => (
               <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.9rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+                className="bg-black/[0.7] px-4 py-2 text-[0.9rem] font-light tracking-wider text-white rounded-full dark:text-white/70" 
                 key={index}
               >  
                 {tag}

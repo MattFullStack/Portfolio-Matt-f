@@ -8,6 +8,8 @@ import wordanalyticsImg from "@/public/wordanalytics.png";
 import Travel from "@/public/Travel.png";
 import RoomTask from "@/public/RoomTask.png";
 import WeatherAppWeb from "@/public/WeatherAppWeb.png"
+import Website3 from "@/public/Website3.png"
+import Website4 from "@/public/Website4.png"
 
 export const links = [
   {
@@ -75,79 +77,88 @@ export const projectsData = [
   {
     title: "Task Management Web App: Integrating Next.js, Prisma and MongoDB",
     description: [
-      "• Leveraged React.js to build a seamless, intuitive and interactive frontend experience.",
-      
-      "• Used Prisma as an ORM to bridge Next.js with MongoDB, facilitating efficient data management and operations for tasks and user profiles.",
-      
-      "• Ensured the application is fully responsive.",
-      
-      "• Implemented middleware to handle backend logic, including authentication flows, demonstrating the ability to manage security and user sessions.",
-      
-      "• Developed comprehensive features like task creation, profile management, and categorization ('Important', 'Completed', 'Do It Now'), showcasing my ability to create a complex and user-friendly application.",
+      "<strong>Overview:</strong> A task management platform designed to streamline productivity and enhance user experience through a responsive, feature-rich interface."
     ].join("<br />"),
-    description2:"",
+    description2:[
+      "<strong>Key Features:</strong>",
+    ].join("<br />"),
+    description3:[
+      "-> Intuitive UI: Crafted with React.js for dynamic and interactive user interactions.",
+      "-> Robust Data Handling: Integrated Next.js with MongoDB using Prisma ORM for seamless task and profile management.",
+      "-> Responsive Design: Adaptability across devices, ensuring a consistent user experience.",
+      "-> Secure Backend: Custom middleware for secure authentication and session management.",
+      "-> Advanced Task Features: Task prioritization, and personal profile customization for user-centric navigation.",
+    ].join("<br />"),
     link:"",
     tags: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Prisma", "MongoDB", "TypeScript"],
     imageUrl: RoomTask,
-    websiteUrl:"https://room-task.vercel.app/"
+    websiteUrl:"https://room-task.vercel.app/",
+    websiteUrl2:"https://github.com/MattFullStack/Task-Management-Web-App-Integrating-Next.js-Prisma-and-MongoDB",
     
   },
   {
     title: "Weather Live Web App: Integrating Next.js, Shadcn, OpenWeatherMap",
     description: [
-      "• Built a dynamic, responsive frontend, leveraging Next.js for performance and SEO benefits.",
-      
-      "• Integrated OpenWeatherMap and OpenMeteo for real-time weather updates, including temperature, air quality, and forecasts.",
-      
-      "• Added map functionality for a visual representation of weather conditions.",
-      
-      "• Implemented middleware to handle backend logic, including authentication flows, demonstrating the ability to manage security and user sessions.",
-      
-      "• Employed Tailwind CSS for a responsive design, ensuring a consistent UI across devices.",
+      "<strong>Overview:</strong> A real-time weather tracking application delivering accurate forecasts and environmental conditions, optimized for performance and user engagement."
     ].join("<br />"),
-    description2:"",
+    description2: [
+      "<strong>Key Features:</strong>"
+    ].join("<br />"),
+    description3: [
+      "-> Dynamic Frontend: Developed with Next.js for enhanced performance and SEO, featuring a responsive layout.",
+      "-> Live Weather Data: Integration with OpenWeatherMap and OpenMeteo for real-time updates on weather conditions, including temperature, air quality, and detailed forecasts.",
+      "-> Interactive Maps: Visual representation of weather data through comprehensive map functionality, enriching user experience.",
+      "-> Secure Backend: Utilized middleware for robust backend logic handling, including user authentication and session management, ensuring security and privacy.",
+      "-> Tailwind CSS: Employed for sleek, responsive design, maintaining UI consistency across various devices and screen sizes.",
+    ].join("<br />"),  
     link:"",
-    tags: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Shadcn", "React Leaflet", "TypeScript"],
+    tags: ["React", "Next.js", "Tailwind CSS", "JavaScript", "Shadcn", "TypeScript"],
     imageUrl: WeatherAppWeb,
-    websiteUrl:"https://weather-fullstack-web-app.vercel.app/"
+    websiteUrl:"https://weather-fullstack-web-app.vercel.app/",
+    websiteUrl2:"https://github.com/MattFullStack/Weather-Fullstack-Web-App",
     
   },
   {
-    title: "Modern Banking Platform: Responsive Web Design",
-    description:[
-      "• Leveraged React.js to build a seamless and intuitive frontend experience.",
-      
-      "• Employed a modular, component-based architecture with React.js, facilitating code reusability and maintainability.",
-      
-      "• Implemented responsive web design principles using Tailwind CSS.",
-      
-      "• Leveraged Next.js for server-side rendering, improving the website's search engine optimization and ensuring faster page loads.",
-
-      "• Leveraged Next.js for server-side rendering, improving the website's search engine optimization and ensuring faster page loads.",
+    title: "Apple iPhone 15 Pro Website Recreation: GSAP and Three.js Integration",
+    description: [
+      "<strong>Overview:</strong> A high-fidelity recreation of Apple's iPhone 15 Pro website, showcasing advanced web animations and 3D rendering to mimic the original's interactive experience."
     ].join("<br />"),
-    description2:"",
+    description2: [
+      "<strong>Key Features:</strong>"
+    ].join("<br />"),
+    description3: [
+      "-> GSAP-Enhanced Animations: Smooth and subtle animation effects that captivate and engage, delivering a seamless user experience.",
+      "-> Three.js 3D Effects: Interactive 3D renderings of the iPhone 15 Pro, allowing users to explore the product in a variety of colors and sizes.",
+      "-> Custom GSAP Video Carousel: An innovative carousel feature that enhances the browsing experience with dynamic, user-focused interactivity.",
+      "-> Fully Responsive Design: A flexible layout that ensures an optimal viewing experience across all devices and screen sizes.",
+      "-> Advanced Code Architecture: Emphasizes clean, reusable code that underpins the website's sophisticated functionality."
+    ].join("<br />"),  
     link:"",
-    tags: ["React", "Next.js", "Tailwind CSS", "Vite", "TypeScript","JavaScript"],
-    imageUrl: corpcommentImg,
-    websiteUrl:"https://bank-website-app.vercel.app/"
+    tags: ["React", "Next.js", "Tailwind CSS", "Vite", "Three.js", "GSAP"],
+    imageUrl: Website3,
+    websiteUrl:"https://apple-iphone-landing-page.vercel.app/",
+    websiteUrl2:"https://github.com/MattFullStack/iPhone-Landing-Page",
   },
   {
-    title: "University Hub: A Comprehensive Landing Page",
-    description:
-    [
-      "• Used HTML & CSS to build a responsive landing page aligning with modern web standards and practices.",
-      
-      "• Ensured the landing page is fully responsive, providing an optimal viewing experience across a wide range of devices from desktops to mobile phones.",
-      
-      "• Leveraged JavaScript to add dynamic animations, enhancing user engagement and interactivity on the page.",
-      
-      "• Emphasized accessibility, adopting best practices to create a welcoming digital environment for all users, including those with disabilities.",
+    title: "Brainwave: Modern UI/UX Website with React.js and Tailwind CSS",
+    description: [
+      "<strong>Overview:</strong> A model of modern UI/UX design, Brainwave leverages React.js and Tailwind CSS for a cutting-edge, responsive website."
     ].join("<br />"),
-    description2:"",
+    description2: [
+      "<strong>Key Features:</strong>"
+    ].join("<br />"),
+    description3: [
+      "-> Beautiful Sections: Crafted with attention to detail, featuring distinct sections such as hero, services, roadmap, pricing, and more.",
+      "-> Parallax Animations: Captivating animations that react to mouse movement and scrolling, providing an interactive user experience.",
+      "-> Complex UI Geometry: Advanced design techniques with Tailwind CSS, showcasing circular feature displays and geometric grid patterns.",
+      "-> Latest UI Trends: Incorporation of modern design elements like bento grids to stay ahead of the curve.",
+      "-> Responsive Design: Full adaptability across all devices, ensuring functionality and design coherence.",
+    ].join("<br />"),
     link:"",
-    tags: ["HTML", "CSS","JavaScript", "Figma"],
-    imageUrl: wordanalyticsImg,
-    websiteUrl:"https://school-website-app.vercel.app/"
+    tags: ["React", "Vite", "JavaScript", "Tailwind CSS"],
+    imageUrl: Website4,
+    websiteUrl:"https://ai-chatbot-solution-online-landing-page.vercel.app/",
+    websiteUrl2:"https://github.com/MattFullStack/AI-Chatbot-Solution-Online-Landing-Page",
   },
 ] as const;
 
@@ -162,7 +173,7 @@ export const skillsData = [
   "Tailwind",
   "MongoDB",
   "Prisma",
-  "Dockers",
+  "Docker",
   "Vite",
   "Redux",
   "Framer",
@@ -170,4 +181,7 @@ export const skillsData = [
   "Strapi",
   "Figma",
   "GitHub",
+  "Three.js",
+  "GSAP",
+  "Shadcn",
 ] as const;
