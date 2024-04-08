@@ -105,7 +105,7 @@ export const projectsData = [
       "<strong>Key Features:</strong>"
     ].join("<br />"),
     description3: [
-      "-> Dynamic Frontend: Developed with Next.js for enhanced performance and SEO, featuring a responsive layout.",
+      "-> Dynamic Frontend: Developed with Next.js for enhanced performance, featuring a responsive layout.",
       "-> Live Weather Data: Integration with OpenWeatherMap and OpenMeteo for real-time updates on weather conditions, including temperature, air quality, and detailed forecasts.",
       "-> Interactive Maps: Visual representation of weather data through comprehensive map functionality, enriching user experience.",
       "-> Secure Backend: Utilized middleware for robust backend logic handling, including user authentication and session management, ensuring security and privacy.",
@@ -127,11 +127,11 @@ export const projectsData = [
       "<strong>Key Features:</strong>"
     ].join("<br />"),
     description3: [
+      "-> Dynamic Frontend: Developed with Next.js for enhanced performance, featuring a responsive layout.",
       "-> GSAP-Enhanced Animations: Smooth and subtle animation effects that captivate and engage, delivering a seamless user experience.",
       "-> Three.js 3D Effects: Interactive 3D renderings of the iPhone 15 Pro, allowing users to explore the product in a variety of colors and sizes.",
       "-> Custom GSAP Video Carousel: An innovative carousel feature that enhances the browsing experience with dynamic, user-focused interactivity.",
       "-> Fully Responsive Design: A flexible layout that ensures an optimal viewing experience across all devices and screen sizes.",
-      "-> Advanced Code Architecture: Emphasizes clean, reusable code that underpins the website's sophisticated functionality."
     ].join("<br />"),  
     link:"",
     tags: ["React", "Next.js", "Tailwind CSS", "Vite", "Three.js", "GSAP"],
@@ -142,17 +142,17 @@ export const projectsData = [
   {
     title: "Brainwave: Modern UI/UX Website with React.js and Tailwind CSS",
     description: [
-      "<strong>Overview:</strong> A model of modern UI/UX design, Brainwave leverages React.js and Tailwind CSS for a cutting-edge, responsive website."
+      "<strong>Overview:</strong> Built a compelling and responsive landing page for an AI Chatbot solution, leveraging React.js and Tailwind CSS to showcase the product’s features through a seamless, modern user interface.."
     ].join("<br />"),
     description2: [
       "<strong>Key Features:</strong>"
     ].join("<br />"),
     description3: [
-      "-> Beautiful Sections: Crafted with attention to detail, featuring distinct sections such as hero, services, roadmap, pricing, and more.",
-      "-> Parallax Animations: Captivating animations that react to mouse movement and scrolling, providing an interactive user experience.",
+      "-> Dynamic Frontend: Utilized React.js to create a vibrant and interactive landing page that responds intuitively to user interactions, highlighting the efficiency and sophistication of the AI Chatbot.",
+      "-> Parallax Animations: Engaging animations that bring the static page to life, making the user experience more immersive as they learn about the chatbot's capabilities.",
       "-> Complex UI Geometry: Advanced design techniques with Tailwind CSS, showcasing circular feature displays and geometric grid patterns.",
-      "-> Latest UI Trends: Incorporation of modern design elements like bento grids to stay ahead of the curve.",
-      "-> Responsive Design: Full adaptability across all devices, ensuring functionality and design coherence.",
+      "-> Modern UI Elements: Adopted contemporary design trends to ensure the landing page stands out with a fresh, intuitive feel that captures user interest immediately.",
+      "-> Fully Responsive Design: A flexible layout that ensures an optimal viewing experience across all devices and screen sizes.",
     ].join("<br />"),
     link:"",
     tags: ["React", "Vite", "JavaScript", "Tailwind CSS"],
