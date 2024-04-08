@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-      Transitioning from sound engineering into web development, my passion for coding is as deep as my roots in music. After enrolling into a web development training at OpenClassroom and an intensive bootcamp at 42 School, I became really interested in solving complex problems and developing scalable solutions. Since then, I keep enhancing my skills through self-directed learning, exploring new technologies, and applying what I learn to practical projects.
+      Transitioning from sound engineering into web development, my passion for coding is as deep as my roots in music. After an intensive bootcamp at 42 School and enrolling into a web development training at Ironhack France, I became really interested in solving complex problems and developing scalable solutions. Since then, I keep enhancing my skills through self-directed learning, exploring new technologies, and applying what I learn to practical projects.
       </p>
 
       <p>

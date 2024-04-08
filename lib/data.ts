@@ -45,7 +45,15 @@ export const experiencesData = [
     description:[
       "With a passion for continuous growth and innovation, I’ve undertaken a self-directed learning journey in full stack development.", " Leveraging the power of React.js and Next.js, I've crafted responsive web applications and delved into the intricacies of front-end and back-end integration. This exploration has enhanced my skills in utilizing databases and ensuring seamless data flow with tools like MongoDB and Prisma.", ],
       icon: React.createElement(FaReact),
-    date: "2023-Present",
+    date: "2024-Present",
+  },
+  {
+    title: "Intensive Web Development Bootcamp (RNCP level 6)",
+    location: "Ironhack France | Paris, France",
+    description:
+    "Through an intensive bootcamp at Ironhack France, I have solidified my foundation in web development, mastering HTML and CSS for structured, stylish web pages, and Git for project management. My journey continued with JavaScript, enhancing interactivity and responsiveness in my designs. As I progressed, I integrated sophisticated backend technologies with React, NodeJS, and ExpressJS, embracing the complexities of full-stack development. This bootcamp has been pivotal in honing my abilities to construct single-page applications and manage database interactions with MongoDB, all contributing to my growth as a versatile web developer.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023-2024",
   },
   {
     title: "Intensive Programming Bootcamp (Piscine 42)",
@@ -54,14 +62,6 @@ export const experiencesData = [
       "Piscine 42 is where I kept developing my coding skills, particularly with C and C++, in a high-intensity learning environment.I collaborated on complex projects, honing skills in code efficiency, algorithmic thinking, and teamwork under high-pressure scenarios. ",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
-  },
-  {
-    title: "Web Development Training",
-    location: "OpenClassroom | Remote",
-    description:
-    "Through rigorous remote training, I developed my coding skills, using HTML/CSS for responsive design and JavaScript for dynamic content creation. My proficiency with Tailwind CSS and Git further enhanced my toolkit, enabling me to craft seamless user experiences across all platforms.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
   },
   {
     title: "Bachelor of Sound Engineering",
@@ -140,9 +140,9 @@ export const projectsData = [
     websiteUrl2:"https://github.com/MattFullStack/iPhone-Landing-Page",
   },
   {
-    title: "Brainwave: Modern UI/UX Website with React.js and Tailwind CSS",
+    title: "AI Chatbot Solution Landing Page",
     description: [
-      "<strong>Overview:</strong> Built a compelling and responsive landing page for an AI Chatbot solution, leveraging React.js and Tailwind CSS to showcase the product’s features through a seamless, modern user interface.."
+      "<strong>Overview:</strong> Built a compelling and responsive landing page for an AI Chatbot solution, leveraging React.js and Tailwind CSS to showcase the product’s features through a seamless, modern user interface."
     ].join("<br />"),
     description2: [
       "<strong>Key Features:</strong>"
