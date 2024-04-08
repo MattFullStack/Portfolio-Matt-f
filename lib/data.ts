@@ -53,7 +53,7 @@ export const experiencesData = [
     description:
     "Through an intensive bootcamp at Ironhack France, I have solidified my foundation in web development, mastering HTML and CSS for structured, stylish web pages, and Git for project management. My journey continued with JavaScript, enhancing interactivity and responsiveness in my designs. As I progressed, I integrated sophisticated backend technologies with React, NodeJS, and ExpressJS, embracing the complexities of full-stack development. This bootcamp has been pivotal in honing my abilities to construct single-page applications and manage database interactions with MongoDB, all contributing to my growth as a versatile web developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023-2024",
+    date: "2023",
   },
   {
     title: "Intensive Programming Bootcamp (Piscine 42)",
